@@ -20,15 +20,15 @@ package io.gravitee.tracing.api;
  * @author GraviteeSource Team
  */
 public interface Span {
-  Span withAttribute(String name, String value);
+    Span withAttribute(String name, String value);
 
-  Span withAttribute(String name, boolean value);
+    Span withAttribute(String name, boolean value);
 
-  Span withAttribute(String name, long value);
+    Span withAttribute(String name, long value);
 
-  Span reportError(Throwable throwable);
+    Span reportError(Throwable throwable);
 
-  Span reportError(String message);
+    Span reportError(String message);
 
-  void end();
+    void end();
 }
