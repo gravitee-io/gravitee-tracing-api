@@ -20,5 +20,5 @@ package io.gravitee.tracing.api;
  * @author GraviteeSource Team
  */
 public interface Tracer {
-  Span span(String spanName);
+    Span span(String spanName);
 }
