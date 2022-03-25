@@ -20,7 +20,7 @@ package io.gravitee.tracing.api;
  * @author GraviteeSource Team
  */
 public interface Tag {
-  String name();
+    String name();
 
-  String value();
+    String value();
 }
