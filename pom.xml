@@ -34,7 +34,7 @@
     <name>Gravitee.io - Tracing - API</name>
 
     <properties>
-        <gravitee-bom.version>1.0</gravitee-bom.version>
+        <gravitee-bom.version>1.5</gravitee-bom.version>
     </properties>
 
     <dependencyManagement>
